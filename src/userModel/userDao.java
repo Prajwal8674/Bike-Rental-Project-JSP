@@ -51,5 +51,19 @@ public int addData(userP p) throws ClassNotFoundException, SQLException{
 	
 	 return a;
 }
+public boolean checkForLogin(String email , String pass ) throws ClassNotFoundException, SQLException{
+	boolean check = false;
+	Class.forName(driver);
+	Connection con =(Connection) DriverManager.getConnection(url,dbname,dbpass);
+	PreparedStatement ps = con.prepareStatement("select * from userdata where email=? and password=?");
 	
+	ps.setString(1,email);
+	ps.setString(2,pass);
+
+	ResultSet rs = ps.executeQuery();
+	check=rs.next();
+	
+	return check;
+	
+}
 }

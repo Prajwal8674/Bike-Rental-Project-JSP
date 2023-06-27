@@ -35,16 +35,16 @@
          <div class="contact_section layout_padding">
          <div class="container">
             <div class="contact_main">
-               <h1 class="request_text">REGISTER HERE</h1>
-               <form action="/action_page.php">
+               <h1 class="request_text">LOGIN HERE</h1>
+               <form action="loginUser">
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Name" name="uname">
+                     <input type="text" class="email-bt" placeholder="email" name="uemail">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Email" name="uemail">
+                     <input type="text" class="email-bt" placeholder="password" name="upass">
                   </div>
                   <div class="send_btn">
-                  <input type="submit" value="SIGN UP">
+                  <input type="submit" value="SIGN IN">
                   </div>
                </form>
             </div>

@@ -54,7 +54,7 @@ try {
 		
 	if(pass.equals(cupass)){
 		ud.addData(p);	
-		
+		response.sendRedirect("userLogin.jsp");
 	}
 	else if(pass!=cupass)
 	{

@@ -41,26 +41,26 @@
                <h1 class="request_text">REGISTER HERE</h1>
                <form action="userRegister">
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Username" name="uname">
+                     <input type="text" class="email-bt" placeholder="Username" name="uname" required="required">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Email" name="uemail">
+                     <input type="text" class="email-bt" placeholder="Email" name="uemail"required="required">
                   </div>
                   <div class="form-group">
-                     <select name="ugen" class="email-bt">
+                     <select name="ugen" class="email-bt" required="required">
                      <option selected>Male</option>
                      <option>Female</option>
                      <option>Other</option>
                   </select>                 
                 </div>            
                   <div class="form-group">
-                     <input type="date" class="email-bt" placeholder="Date Of Birth" name="udob">
+                     <input type="date" class="email-bt" placeholder="Date Of Birth" name="udob" required="required">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Password" name="upass" id="password">
+                     <input type="password" class="email-bt" placeholder="Password" name="upass" id="password" required="required">
                   </div>
                   <div class="form-group">
-                     <input type="text" class="email-bt" placeholder="Confirm Password" name="cupass"id="confirm-password">
+                     <input type="password" class="email-bt" placeholder="Confirm Password" name="cupass"id="confirm-password" required="required">
                   </div>
                   
                   <div class="send_btn">
