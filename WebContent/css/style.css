@@ -1003,7 +1003,7 @@ textarea#comment::placeholder {
     margin: 0px auto;
 }
 
-.send_btn a {
+.send_btn input {
     width: 100%;
     float: left;
     color: #ffffff;
@@ -1013,7 +1013,7 @@ textarea#comment::placeholder {
     border-radius: 10px;
 }
 
-.send_btn a:hover {
+.send_btn input:hover {
     color: #000;
     background-color: #ffffff;
 }
@@ -1140,5 +1140,20 @@ textarea#comment::placeholder {
 #navbarSupportedContent.nav-normal{
     transform: none;
 }
+/*  */
+.hidden-nav {
+   display: none;
+}
+.nav-toggler {
+   display: block;
+   cursor: pointer;
+   font-size: 36px;
+   color: #fff;
+}
+.nav-toggler:hover + .navbar {
+   display: block;
+}
+
+
 
 /* contact section end*/

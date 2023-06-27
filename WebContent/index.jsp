@@ -66,8 +66,8 @@
                <form class="form-inline my-2 my-lg-0">
                   <div class="login_menu">
                      <ul> 
-                        <li><a href="userRegister.html"l">Sign Up</a></li>
-                        <li><a href="userLogin.html">Sign In</a></li>
+                        <li><a href="userRegister.jsp">Sign Up</a></li>
+                        <li><a href="userLogin.jsp">Sign In</a></li>
                         <!-- <li><a href="#"><img src="images/trolly-icon.png"></a></li>
                         <li><a href="#"><img src="images/search-icon.png"></a></li> -->
                      </ul>

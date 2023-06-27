@@ -43,10 +43,10 @@
                   <div class="form-group">
                      <input type="text" class="email-bt" placeholder="Email" name="uemail">
                   </div>
+                  <div class="send_btn">
+                  <input type="submit" value="SIGN UP">
+                  </div>
                </form>
-               <div class="send_btn"><a href="#">REGISTER</a>
-               
-               </div>
             </div>
          </div>
       </div>
