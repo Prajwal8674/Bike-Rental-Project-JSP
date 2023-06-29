@@ -1,4 +1,4 @@
-package amdinController;
+/*package amdinController;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -50,7 +50,7 @@ public class adminRegister extends HttpServlet {
 		adminP p = new adminP(name,gender,dob,email,pass);
 		
 		try {
-			if(!ad.checkUser(email))
+			if(!ad.checkAdmin(email))
 			{
 				if(pass.equals(cupass))
 				{
@@ -104,3 +104,4 @@ public class adminRegister extends HttpServlet {
 	}
 
 }
+*/

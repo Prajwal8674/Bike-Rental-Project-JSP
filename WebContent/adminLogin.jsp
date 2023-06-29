@@ -1,12 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
-    <%@page import="userModel.userDao"%>
-    <%@page import="userModel.userP" %> 
     
-    
-    
+    <%@page import="adminModel.adminDao"%>
+    <%@page import="adminModel.adminP" %> 
     
 <html>
 <head>
@@ -21,13 +18,14 @@
     %>
     
     <%
-    userDao ud = new userDao();
+    adminDao ad = new adminDao();
+    
 
-    if(ud.checkForLogin(checkmail, checkpass)){
-    	response.sendRedirect("home.jsp");
+    if(ad.checkForLogin(checkmail, checkpass)){
+    	response.sendRedirect("homeAdmin.jsp");
     }
-    else if(!ud.checkForLogin(checkmail, checkpass)){
-    	response.sendRedirect("userLogin.html");
+    else if(!ad.checkForLogin(checkmail, checkpass)){
+    	response.sendRedirect("adminLogin.html");
     }
     %>
 </body>

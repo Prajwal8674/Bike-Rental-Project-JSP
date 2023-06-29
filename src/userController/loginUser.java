@@ -1,4 +1,4 @@
-package userController;
+/*package userController;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -48,3 +48,4 @@ public class loginUser extends HttpServlet {
 	}
 
 }
+*/
