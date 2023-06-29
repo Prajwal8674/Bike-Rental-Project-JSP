@@ -34,10 +34,10 @@ https://templatemo.com/tm-539-simple-house
 						</div>
 						<nav class="col-md-6 col-12 tm-nav">
 							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="#" class="tm-nav-link active">Home</a></li>
 								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
-								<li class="tm-nav-li"><a href="#" class="tm-nav-link">Sign In</a></li>
-								<li class="tm-nav-li"><a href="#" class="tm-nav-link">Sign Up</a></li>
+								<li class="tm-nav-li"><a href="showRiders.jsp" class="tm-nav-link">Riders</a></li>
+								<li class="tm-nav-li"><a href="#" class="tm-nav-link">Sign out</a></li>
 
 								<!-- <li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li> -->
 							</ul>
@@ -49,8 +49,8 @@ https://templatemo.com/tm-539-simple-house
 
 		<main>
 			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">Welcome to Simple House</h2>
-				<p class="col-12 text-center">Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
+				<h2 class="col-12 text-center tm-section-title">Welcome To Marvel Autos</h2>
+				<p class="col-12 text-center">When you ride a bike and you get your heart racing in that close proximity to the world, you feel a part of it, you feel a part of your environment. It's intoxicating." - David Byrne</p>
 			</header>
 			
 			<div class="tm-paging-links">
@@ -352,8 +352,8 @@ https://templatemo.com/tm-539-simple-house
 					</div>
 					<div class="col-md-6">
 						<div class="tm-description-box"> 
-							<h4 class="tm-gallery-title">Maecenas nulla neque</h4>
-							<p class="tm-mb-45">Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to <a rel="nofollow" href="https://templatemo.com/contact">talk to us</a> for additional permissions about our templates. Thank you.</p>
+							<h4 class="tm-gallery-title">Marvel Autos Presents</h4>
+							<p class="tm-mb-45">Step into our bike rental garage, where a world of pedal-powered exploration awaits. With a diverse fleet of high-quality bicycles, we offer the perfect ride for every adventure seeker. Whether you're craving an exhilarating mountain trail or a leisurely cruise along scenic paths, our garage is your gateway to unforgettable cycling experiences. Choose your wheels, embrace the freedom of the open road, and embark on a two-wheeled journey like no other.</p>
 							<a href="about.html" class="tm-btn tm-btn-default tm-right">Read More</a>
 						</div>
 					</div>

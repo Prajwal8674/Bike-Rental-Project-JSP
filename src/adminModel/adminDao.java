@@ -4,8 +4,12 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.Statement;
+
+import userModel.userP;
 
 
 public class adminDao {
@@ -65,6 +69,23 @@ Connection getConnect() throws ClassNotFoundException, SQLException{
     	check=rs.next();
     	
     	return check;
+    	
+    }
+    public ArrayList<userP> getallRiders() throws ClassNotFoundException, SQLException{
+    	String sql = "select * from userdata";
+    	Connection con = getConnect();
+    	Statement  s = (Statement) con.createStatement();
+    	ResultSet rs = s.executeQuery(sql);
+    	ArrayList<userP> getallRiders =new ArrayList<>();
+    	
+    	while(rs.next()){
+    		
+    		userP p = new userP(rs.getInt(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6));
+    		getallRiders.add(p);
+    	}
+    	con.close();
+
+		return getallRiders;
     	
     }
  }
