@@ -353,7 +353,7 @@ https://templatemo.com/tm-539-simple-house
 					<div class="col-md-6">
 						<div class="tm-description-box"> 
 							<h4 class="tm-gallery-title">Marvel Autos Presents</h4>
-							<p class="tm-mb-45">Step into our bike rental garage, where a world of pedal-powered exploration awaits. With a diverse fleet of high-quality bicycles, we offer the perfect ride for every adventure seeker. Whether you're craving an exhilarating mountain trail or a leisurely cruise along scenic paths, our garage is your gateway to unforgettable cycling experiences. Choose your wheels, embrace the freedom of the open road, and embark on a two-wheeled journey like no other.</p>
+							<p class="tm-mb-45">Step into our bike rental garage, where a world of pedal-powered exploration awaits. With a diverse fleet of high-quality bicycles, we offer the perfect ride for every adventure seeker. Whether you're craving an exhilarating mountain trail or a leisurely cruise along scenic paths, our garage is your gateway to unforgettable cycling experiences. Choose your wheels, embrace the freedom of the open road, and embark on a two-wheeled journey like no other.  </p>
 							<a href="about.html" class="tm-btn tm-btn-default tm-right">Read More</a>
 						</div>
 					</div>

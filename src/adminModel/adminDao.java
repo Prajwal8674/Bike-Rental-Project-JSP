@@ -88,4 +88,14 @@ Connection getConnect() throws ClassNotFoundException, SQLException{
 		return getallRiders;
     	
     }
+    public int delById(int id) throws ClassNotFoundException, SQLException{
+		  String sql = "DELETE FROM userdata WHERE id = ?";
+		  Connection con=getConnect();
+		  PreparedStatement ps=con.prepareStatement(sql);
+		  ps.setInt(1,id);
+		  int a = ps.executeUpdate();
+	    	
+		  return a;
+		  
+	  }
  }

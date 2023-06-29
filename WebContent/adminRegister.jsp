@@ -29,7 +29,7 @@
 			if(pass.equals(cupass))
 			{
 				   ad.addData(p);	
-				   response.sendRedirect("userLogin.jsp");
+				   response.sendRedirect("adminLogin.html");
 			}
 			else if(!pass.equals(cupass))
 			{%>
@@ -39,7 +39,7 @@
 		}else if(ad.checkAdmin(email)){ %>
 		 
 			<script>alert("Warning : Your Email Is Already Exists !! . ");</script>		
-			<% response.sendRedirect("userLogin.jsp"); %>
+			<% response.sendRedirect("adminLogin.html"); %>
              <%
              }
     %>
