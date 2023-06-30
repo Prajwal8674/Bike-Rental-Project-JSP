@@ -25,6 +25,7 @@
     	response.sendRedirect("homeAdmin.jsp");
     }
     else if(!ad.checkForLogin(checkmail, checkpass)){
+    	out.print("wrong");
     	response.sendRedirect("adminLogin.html");
     }
     %>

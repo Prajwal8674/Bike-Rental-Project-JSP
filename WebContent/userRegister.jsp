@@ -26,7 +26,7 @@
 			if(pass.equals(cupass))
 			{
 				   ud.addData(p);	
-				   response.sendRedirect("userLogin.jsp");
+				   response.sendRedirect("userLogin.html");
 			}
 			else if(!pass.equals(cupass))
 			{%>
@@ -36,7 +36,7 @@
 		}else if(ud.checkUser(email)){ %>
 		 
 			<script>alert("Warning : Your Email Is Already Exists !! . ");</script>		
-			<% response.sendRedirect("userLogin.jsp"); %>
+			<% /* response.sendRedirect("userLogin.jsp"); */ %>
              <%
              }
     %>

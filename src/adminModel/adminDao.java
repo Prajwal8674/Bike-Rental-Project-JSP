@@ -13,13 +13,13 @@ import userModel.userP;
 
 
 public class adminDao {
-	String driver = "com.mysql.jdbc.Driver";
-	String dbName = "bikerentalproject_jsp";
-	String url    = "jdbc:mysql://localhost:3306/"+dbName;
-	String dbname ="root";
-	String dbpass = "admin01";
+	static String driver = "com.mysql.jdbc.Driver";
+	static String dbName = "bikerentalproject_jsp";
+	static String url    = "jdbc:mysql://localhost:3306/"+dbName;
+	static String dbname ="root";
+	static String dbpass = "admin01";
 	
-Connection getConnect() throws ClassNotFoundException, SQLException{
+public static Connection getConnect() throws ClassNotFoundException, SQLException{
 		
 		Class.forName(driver);
 		return  (Connection) DriverManager.getConnection(url,dbname,dbpass);

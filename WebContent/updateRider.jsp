@@ -83,9 +83,7 @@
       </style>
    </head>
 
-   <body>
-   
-   
+   <body>   
                   <%
                   int id= Integer.parseInt(request.getParameter("id"));
   			   	  userP p = new adminDao().getOneRider(id);
@@ -103,18 +101,24 @@
                                 <img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
                                 <div class="tm-site-text-box">
                                     <h1 class="tm-site-title">Marvel Autos</h1>
-                                    <h6 class="tm-site-description">Brand New Online Bike Rental Website</h6>	
+                                    <h6 class="tm-site-description">Update Section</h6>	
                                 </div>
                             </div>
                             <nav class="col-md-6 col-12 tm-nav">
-                                <ul class="tm-nav-ul">
-                                    <li class="tm-nav-li"><a href="index.jsp" class="tm-nav-link ">Home</a></li>
-<!--                                     <li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
- -->                                    <!-- <li class="tm-nav-li"><a href="userLogin.jsp" class="tm-nav-link">Sign In</a></li> -->
-                                    <li class="tm-nav-li"><a href="#" class="tm-nav-link active">Update here</a></li>
-    
-                                    <!-- <li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li> -->
-                                </ul>
+                                 <ul class="tm-nav-ul">
+                  <li class="tm-nav-li">
+                    <a href="homeAdmin.jsp" class="tm-nav-link ">Home</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="about.html" class="tm-nav-link">About</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="#" class="tm-nav-link active">Riders</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="userRegister.html" class="tm-nav-link ">Sign out</a>
+                  </li>
+                </ul>
                             </nav>	
                         </div>
                     </div>
@@ -154,9 +158,6 @@
                      <input type="submit" value="UPDATE">
                   </div>
                </form>
-              
-           
-          
          </div>
       </div>
       <!-- footer section start -->
