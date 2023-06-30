@@ -98,4 +98,32 @@ Connection getConnect() throws ClassNotFoundException, SQLException{
 		  return a;
 		  
 	  }
+    public int upRider(userP p) throws ClassNotFoundException, SQLException{
+    	String sql = "UPDATE userdata SET username=?,gender=?,birthDate=?,email=?,password=? WHERE id=?";
+    	Connection con = getConnect();
+    	PreparedStatement  ps = con.prepareStatement(sql);
+
+    	ps.setString(1, p.getUname());
+    	ps.setString(2, p.getUgen());
+    	ps.setString(3, p.getUdob());
+    	ps.setString(4, p.getUemail());
+    	ps.setString(5, p.getUpass());
+    	ps.setInt(6, p.getId());
+
+    	int a = ps.executeUpdate();
+    	con.close();
+    	return a;
+    }
+    public userP getOneRider(int id) throws ClassNotFoundException, SQLException {
+        Connection con = getConnect();
+        PreparedStatement ps = con.prepareStatement("SELECT * FROM userdata WHERE id=?");
+        ps.setInt(1, id);
+
+        ResultSet rs = ps.executeQuery();
+        rs.next();  // Move the cursor to the first row
+        userP p = new userP(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6));
+        return p;
+    }
+
+
  }

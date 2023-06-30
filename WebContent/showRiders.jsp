@@ -184,7 +184,7 @@
       	            out.println("<td style='text-align: center'>"+pp.getUemail()+"</td>");
       	            out.println("<td style='text-align: center'>"+pp.getUpass()+"</td>");
       	            out.println("<td>");
-      	            out.print("<button class=\"btn btn-primary\">UPDATE</button>");
+      	            out.print("<a href=\"updateRider.jsp?id="+ pp.getId()+"\"><button class=\"btn btn-primary\">UPDATE</button></a>");
       	            out.print("<a href=\"removeRider.jsp?id="+ pp.getId()+"\"><button class=\"btn btn-secondary\">DELETE</button></a>");
       	            out.println("</td>");
       	            out.println("</tr>");
