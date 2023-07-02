@@ -38,7 +38,7 @@
 
       /* Add padding between table and content below */
       .tm-section {
-        padding-bottom: 80px;
+        padding-bottom: 40px;
       }
 
       .btn {
@@ -95,16 +95,14 @@
         <div
           class="parallax-window"
           data-parallax="scroll"
-          data-image-src="img/bGarage.webp"
-        >
+          data-image-src="img/bGarage.webp">
           <div class="tm-header">
             <div class="row tm-header-inner">
               <div class="col-md-6 col-12">
                 <img
                   src="img/simple-house-logo.png"
                   alt="Logo"
-                  class="tm-site-logo"
-                />
+                  class="tm-site-logo"/>
                 <div class="tm-site-text-box">
                   <h1 class="tm-site-title">Marvel Autos</h1>
                   <h6 class="tm-site-description">List Of Riders</h6>

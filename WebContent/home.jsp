@@ -36,7 +36,7 @@ https://templatemo.com/tm-539-simple-house
 							<ul class="tm-nav-ul">
 								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
 								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
-								<li class="tm-nav-li"><a href="#" class="tm-nav-link">Sign In</a></li>
+								<li class="tm-nav-li"><a href="showVehicleforU.jsp" class="tm-nav-link">Vehicles</a></li>
 								<li class="tm-nav-li"><a href="#" class="tm-nav-link">Sign Up</a></li>
 
 								<!-- <li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li> -->

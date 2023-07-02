@@ -57,7 +57,7 @@ https://templatemo.com/tm-539-simple-house
 			<div class="tm-paging-links">
 				<nav>
 					<ul>
-						<li class="tm-paging-item"><a href="#" class="tm-paging-link active">bike</a></li>
+						<li class="tm-paging-item"><a href="#" class="tm-paging-link active">biker</a></li>
 						<li class="tm-paging-item"><a href="#" class="tm-paging-link">caferacer</a></li>
 						<li class="tm-paging-item"><a href="#" class="tm-paging-link">scooty</a></li>
 						<li class="tm-paging-item"><a href="#" class="tm-paging-link">normal</a></li>
@@ -69,7 +69,7 @@ https://templatemo.com/tm-539-simple-house
 			<!-- Gallery -->
 			<div class="row tm-gallery">
 				<!-- gallery page 1 -->
-				<div id="tm-gallery-page-bike" class="tm-gallery-page">
+				<div id="tm-gallery-page-biker" class="tm-gallery-page">
 					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 						<figure>
 							<img src="img/gallery/01.jpg" alt="Image" class="img-fluid tm-gallery-img" />

@@ -10,6 +10,7 @@ import com.mysql.jdbc.Connection;
 import com.mysql.jdbc.Statement;
 
 import userModel.userP;
+import adminModel.vehicleP;;
 
 
 public class adminDao {
@@ -24,7 +25,7 @@ public static Connection getConnect() throws ClassNotFoundException, SQLExceptio
 		Class.forName(driver);
 		return  (Connection) DriverManager.getConnection(url,dbname,dbpass);
 	}
-
+         
 	public boolean checkAdmin(String email) throws SQLException, ClassNotFoundException{
 	Class.forName(driver) ;
 	Connection con =(Connection) DriverManager.getConnection(url,dbname,dbpass);
@@ -71,23 +72,7 @@ public static Connection getConnect() throws ClassNotFoundException, SQLExceptio
     	return check;
     	
     }
-    public ArrayList<userP> getallRiders() throws ClassNotFoundException, SQLException{
-    	String sql = "select * from userdata";
-    	Connection con = getConnect();
-    	Statement  s = (Statement) con.createStatement();
-    	ResultSet rs = s.executeQuery(sql);
-    	ArrayList<userP> getallRiders =new ArrayList<>();
-    	
-    	while(rs.next()){
-    		
-    		userP p = new userP(rs.getInt(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6));
-    		getallRiders.add(p);
-    	}
-    	con.close();
-
-		return getallRiders;
-    	
-    }
+    
     public int delById(int id) throws ClassNotFoundException, SQLException{
 		  String sql = "DELETE FROM userdata WHERE id = ?";
 		  Connection con=getConnect();
@@ -124,6 +109,50 @@ public static Connection getConnect() throws ClassNotFoundException, SQLExceptio
         userP p = new userP(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6));
         return p;
     }
+    
+    public ArrayList<userP> getallRiders() throws ClassNotFoundException, SQLException{
+    	String sql = "select * from userdata";
+    	Connection con = getConnect();
+    	Statement  s = (Statement) con.createStatement();
+    	ResultSet rs = s.executeQuery(sql);
+    	ArrayList<userP> getallRiders =new ArrayList<>();
+    	
+    	while(rs.next()){
+    		
+    		userP p = new userP(rs.getInt(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6));
+    		getallRiders.add(p);
+    	}
+    	con.close();
 
+		return getallRiders;
+    	
+    }
+
+    public ArrayList<vehicleP> getallVehicles() throws ClassNotFoundException, SQLException{
+    	String sql = "select * from vehicles";
+    	Connection con = getConnect();
+    	Statement  s = (Statement) con.createStatement();
+    	ResultSet rs = s.executeQuery(sql);
+    	ArrayList<vehicleP> getallVehicles =new ArrayList<>();
+    	
+    	while(rs.next()){
+    		vehicleP v = new vehicleP(rs.getInt(1),rs.getString(2),rs.getString(3),rs.getInt(4),rs.getString(5),rs.getString(6),rs.getString(7));
+    		getallVehicles.add(v);
+    	}
+    	con.close();
+
+		return getallVehicles;
+    	
+    }
+    public int delVbyId(int id) throws ClassNotFoundException, SQLException{
+		  String sql = "DELETE FROM vehicles WHERE id = ?";
+		  Connection con=getConnect();
+		  PreparedStatement ps=con.prepareStatement(sql);
+		  ps.setInt(1,id);
+		  int a = ps.executeUpdate();
+	    	
+		  return a;
+		  
+	  }
 
  }

@@ -1,10 +1,4 @@
-/*
 
-Simple House
-
-https://templatemo.com/tm-539-simple-house
-
-*/
 
 ul, nav, body, h1, h2, h4, h6, p, figure {
   margin: 0;
@@ -89,12 +83,7 @@ html {
   }
 }
 
-@media (min-width: 992px) {
-  .col-lg-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
+
   
   .col-lg-4 {
     -ms-flex: 0 0 33.333333%;
@@ -387,9 +376,7 @@ p, address {
   }
 }
 
-.tm-gallery-item {
-  max-width: 280px;
-}
+  
 
 .tm-gallery-img {
   margin-bottom: 20px;
@@ -409,7 +396,7 @@ p, address {
 .tm-gallery-price {
   font-size: 1.25rem;
   color: #2F956D;
-  margin-bottom: 60px;
+  margin-bottom: 9px;
 }
 
 .tm-paging-links {
@@ -489,7 +476,7 @@ p, address {
   margin-bottom: 20px;
 }
 
-.tm-person {
+.tm-person {	
   display: flex;
   flex-direction: column;
   align-items: center;
