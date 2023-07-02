@@ -110,18 +110,11 @@
               </div>
               <nav class="col-md-6 col-12 tm-nav">
                 <ul class="tm-nav-ul">
-                  <li class="tm-nav-li">
-                    <a href="homeAdmin.jsp" class="tm-nav-link ">Home</a>
-                  </li>
-                  <li class="tm-nav-li">
-                    <a href="about.html" class="tm-nav-link">About</a>
-                  </li>
-                  <li class="tm-nav-li">
-                    <a href="#" class="tm-nav-link active">Riders</a>
-                  </li>
-                  <li class="tm-nav-li">
-                    <a href="userRegister.html" class="tm-nav-link ">Sign out</a>
-                  </li>
+                  <li class="tm-nav-li"><a href="homeAdmin.jsp" class="tm-nav-link ">Home</a></li>
+                  <li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
+                  <li class="tm-nav-li"><a href="addVehicle.html" class="tm-nav-link">vehicle</a></li>
+                  <li class="tm-nav-li"><a href="#" class="tm-nav-link active">Riders</a></li>
+                  <li class="tm-nav-li"><a href="userRegister.html" class="tm-nav-link ">Sign out</a></li>
                 </ul>
               </nav>
             </div>

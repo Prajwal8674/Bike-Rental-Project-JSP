@@ -29,9 +29,9 @@
         .delete-btn:hover {
             transform: scale(1.1);
         }
-        .tm-gallery-item {
-  max-width: 352px;
-}
+         .tm-gallery-item {
+            max-width: 263px;
+            }
 
     </style>
 </head>

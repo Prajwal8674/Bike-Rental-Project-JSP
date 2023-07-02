@@ -154,5 +154,23 @@ public static Connection getConnect() throws ClassNotFoundException, SQLExceptio
 		  return a;
 		  
 	  }
+    public vehicleP getOneVehicle(int id) throws ClassNotFoundException, SQLException {
+        Connection con = getConnect();
+        PreparedStatement ps = con.prepareStatement("SELECT * FROM vehicles WHERE id=?");
+        vehicleP v= new vehicleP();
+        ps.setInt(1, id);
+        ResultSet rs = ps.executeQuery();
+        while(rs.next()){
+        	v.setId(rs.getInt(1));
+        	v.setModel(rs.getString(2));
+        	v.setMilage(rs.getString(3));
+        	v.setPrice(rs.getInt(4));
+        	v.setType(rs.getString(5));
+        	v.setPurpose(rs.getString(6));
+        	v.setImage(rs.getString(7));
+        }
+        
+        return v;
+    }
 
  }

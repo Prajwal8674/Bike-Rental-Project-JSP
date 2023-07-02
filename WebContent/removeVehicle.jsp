@@ -20,7 +20,6 @@ if(a>0){
 	response.sendRedirect("showVehicleforA.jsp");	
 }
 
-
  %>
 </body>
 </html>

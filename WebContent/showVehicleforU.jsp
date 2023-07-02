@@ -15,6 +15,7 @@
 	<link href="css/templatemo-style.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	 <style>
         .price-container {
             display: flex;
@@ -30,7 +31,7 @@
             transform: scale(1.1);
         }
            .tm-gallery-item {
-            max-width: 352px;
+            max-width: 263px;
             }
     </style>
 </head>
@@ -57,8 +58,8 @@
 						<nav class="col-md-6 col-12 tm-nav">
 							<ul class="tm-nav-ul">
 								<li class="tm-nav-li"><a href="home.jsp" class="tm-nav-link">Home</a></li>
-								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link">About</a></li>
 								<li class="tm-nav-li"><a href="#" class="tm-nav-link active">Vehicles</a></li>
+								<li class="tm-nav-li"><a href="#" class="tm-nav-link">Purchase&nbsp;<i class="fa fa-lock" style="font-size:20px"></a></i></li>
 								<li class="tm-nav-li"><a href="#" class="tm-nav-link">Sign Up</a></li>
 
 								<!-- <li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li> -->

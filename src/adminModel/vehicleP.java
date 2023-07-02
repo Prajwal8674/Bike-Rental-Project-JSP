@@ -9,6 +9,12 @@ public class vehicleP {
 	private String purpose;
 	private String image;
 
+	
+	public vehicleP() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public vehicleP(String model, String milage, int price, String type, String purpose, String image) {
 		super();
 		this.model = model;
