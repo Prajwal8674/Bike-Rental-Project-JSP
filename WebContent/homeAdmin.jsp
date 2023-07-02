@@ -8,14 +8,14 @@
     <title>Simple House Template</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
 	<link href="css/templatemo-style.css" rel="stylesheet" />
+	<style>
+		.img-fluid {
+  max-width: 30%;
+  height: auto;
+}
+	</style>
+
 </head>
-<!--
-
-Simple House
-
-https://templatemo.com/tm-539-simple-house
-
--->
 <body> 
 
 	<div class="container">
@@ -47,316 +47,92 @@ https://templatemo.com/tm-539-simple-house
 				</div>
 			</div>
 		</div>
-
-		<main>
+<main>
 			<header class="row tm-welcome-section">
-				<h2 class="col-12 text-center tm-section-title">Welcome To Marvel Autos</h2>
-				<p class="col-12 text-center">When you ride a bike and you get your heart racing in that close proximity to the world, you feel a part of it, you feel a part of your environment. It's intoxicating." - David Byrne</p>
+				<h2 class="col-12 text-center tm-section-title">Upcoming Machines</h2>
+				<p class="col-12 text-center">Elevate your riding experience to new heights with our upcoming motorcycle, combining advanced technology, comfort, and uncompromising performance.</p>
 			</header>
-			
-			<div class="tm-paging-links">
-				<nav>
-					<ul>
-						<li class="tm-paging-item"><a href="#" class="tm-paging-link active">biker</a></li>
-						<li class="tm-paging-item"><a href="#" class="tm-paging-link">caferacer</a></li>
-						<li class="tm-paging-item"><a href="#" class="tm-paging-link">scooty</a></li>
-						<li class="tm-paging-item"><a href="#" class="tm-paging-link">normal</a></li>
 
-					</ul>
-				</nav>
-			</div>
-
-			<!-- Gallery -->
-			<div class="row tm-gallery">
-				<!-- gallery page 1 -->
-				<div id="tm-gallery-page-biker" class="tm-gallery-page">
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/01.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Fusce dictum finibus</h4>
-								<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-								<p class="tm-gallery-price">$45 / $55</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/02.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Aliquam sagittis</h4>
-								<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-								<p class="tm-gallery-price">$65 / $70</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Sed varius turpis</h4>
-								<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-								<p class="tm-gallery-price">$30.50</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Aliquam sagittis</h4>
-								<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-								<p class="tm-gallery-price">$25.50</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/05.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Maecenas eget justo</h4>
-								<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-								<p class="tm-gallery-price">$80.25</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/06.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Quisque et felis eros</h4>
-								<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-								<p class="tm-gallery-price">$20 / $40 / $60</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/07.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Sed ultricies dui</h4>
-								<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-								<p class="tm-gallery-price">$94</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/08.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Donec porta consequat</h4>
-								<p class="tm-gallery-description">Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan</p>
-								<p class="tm-gallery-price">$15</p>
-							</figcaption>
-						</figure>
-					</article>
-				</div> <!-- gallery page 1 -->
-				
-				<!-- gallery page 2 -->
-				<div id="tm-gallery-page-caferacer" class="tm-gallery-page hidden">
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Salad Menu One</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$25</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Second Title Salad</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$30</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/05.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Third Salad Item</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$45</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/01.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Superior Salad</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$50</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/08.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Sed ultricies dui</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$55 / $60</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/07.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Maecenas eget justo</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$75</p>
-							</figcaption>
-						</figure>
-					</article>
-				</div> <!-- gallery page 2 -->
-				
-				<!-- gallery page 3 -->
-				<div id="tm-gallery-page-scooty" class="tm-gallery-page hidden">
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/08.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Noodle One</h4>
-								<p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-								<p class="tm-gallery-price">$12.50</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/07.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Noodle Second</h4>
-								<p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-								<p class="tm-gallery-price">$15.50</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/06.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Third Soft Noodle</h4>
-								<p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-								<p class="tm-gallery-price">$20.50</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/05.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Aliquam sagittis</h4>
-								<p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-								<p class="tm-gallery-price">$30.25</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Maecenas eget justo</h4>
-								<p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-								<p class="tm-gallery-price">$35.50</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Quisque et felis eros</h4>
-								<p class="tm-gallery-description">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-								<p class="tm-gallery-price">$40.50</p>
-							</figcaption>
-						</figure>
-					</article>
-
-				</div> <!-- gallery page 3 -->
-				<!-- gallery page 2 -->
-				<div id="tm-gallery-page-normal" class="tm-gallery-page hidden">
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/04.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Salad Menu One</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$25</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/03.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Second Title Salad</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$30</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/05.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Third Salad Item</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$45</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/01.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Superior Salad</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$50</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/08.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Sed ultricies dui</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$55 / $60</p>
-							</figcaption>
-						</figure>
-					</article>
-					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
-						<figure>
-							<img src="img/gallery/07.jpg" alt="Image" class="img-fluid tm-gallery-img" />
-							<figcaption>
-								<h4 class="tm-gallery-title">Maecenas eget justo</h4>
-								<p class="tm-gallery-description">Proin eu velit egestas, viverra sapien eget, consequat nunc. Vestibulum tristique</p>
-								<p class="tm-gallery-price">$75</p>
-							</figcaption>
-						</figure>
-					</article>
-				</div> <!-- gallery page 2 -->
-			</div>
-			<div class="tm-section tm-container-inner">
+			<div class="tm-container-inner tm-persons">
 				<div class="row">
-					<div class="col-md-6">
-						<figure class="tm-description-figure">
-							<img src="img/H2.webp" alt="Image" class="img-fluid" />
+					<article class="col-lg-6">
+						<figure class="tm-person">
+							<img src="img/harley.jpg" alt="Image" class="img-fluid tm-person-img" />
+							<figcaption class="tm-person-description">
+								<h4 class="tm-person-name">Harley Davidson Forty Eight</h4>
+								<p class="tm-person-title">1202 CC</p>
+								<p class="tm-person-about">Vivamus cursus leo nec sem feugiat sagittis.
+								Duis ut feugiat odio, sit amet accumsan
+								odio.</p>
+								<div>
+									<a href="https://www.bikewale.com/harleydavidson-bikes/forty-eight/" class="tm-btn tm-btn-default tm-right">Read More</a>
+								</div>
+							</figcaption>
 						</figure>
-					</div>
-					<div class="col-md-6">
-						<div class="tm-description-box"> 
-							<h4 class="tm-gallery-title">Marvel Autos Presents</h4>
-							<p class="tm-mb-45">Step into our bike rental garage, where a world of pedal-powered exploration awaits. With a diverse fleet of high-quality bicycles, we offer the perfect ride for every adventure seeker. Whether you're craving an exhilarating mountain trail or a leisurely cruise along scenic paths, our garage is your gateway to unforgettable cycling experiences. Choose your wheels, embrace the freedom of the open road, and embark on a two-wheeled journey like no other.  </p>
-							<a href="about.html" class="tm-btn tm-btn-default tm-right">Read More</a>
+					</article>
+					<article class="col-lg-6">
+						<figure class="tm-person">
+							<img src="img/upVitpilen.webp" alt="Image" class="img-fluid tm-person-img" />
+							<figcaption class="tm-person-description">
+								<h4 class="tm-person-name">Vitpilen 401</h4>
+								<p class="tm-person-title">401 CC</p>
+								<p class="tm-person-about">Praesent non vulputate elit. Orci varius
+								natoque et magnis dis parturient, nascetur ridiculus mus.</p>
+								<div>
+									<a href="https://www.bikewale.com/husqvarna-bikes/vitpilen-401/" class="tm-btn tm-btn-default tm-right">Read More</a>
+								</div>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-6">
+						<figure class="tm-person">
+							<img src="img/upZX10R.jpg" alt="Image" class="img-fluid tm-person-img" />
+							<figcaption class="tm-person-description">
+								<h4 class="tm-person-name">Ninja ZX10R</h4>
+								<p class="tm-person-title">998 CC </p>
+								<p class="tm-person-about">Aenean sapien sem, ultricies sed vulputate
+								et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae.</p>
+								<div>
+									<a href="https://www.bikewale.com/kawasaki-bikes/ninja-zx-10r/" class="tm-btn tm-btn-default tm-right">Read More</a>
+								</div>
+							</figcaption>
+						</figure>
+					</article>
+					<article class="col-lg-6">
+						<figure class="tm-person">
+							<img src="img/upCBR650R.jpg" alt="Image" class="img-fluid tm-person-img" />
+							<figcaption class="tm-person-description">
+								<h4 class="tm-person-name">CBR 650R</h4>
+								<p class="tm-person-title">650 CC</p>
+								<p class="tm-person-about">Praesent non vulputate elit. Orci varius
+								natoque penatibus et magnis montes, nascetur ridiculus mus.</p>
+								<div>
+								<a href="https://www.bikewale.com/honda-bikes/cbr-650r/" class="tm-btn tm-btn-default tm-right">Read More</a>
+								</div>
+							</figcaption>
+						</figure>
+					</article>
+				</div>
+			</div>
+			<div class="tm-container-inner tm-featured-image">
+				<div class="row">
+					<div class="col-12">
+						<div class="placeholder-2">
+							<div class="parallax-window-2" data-parallax="scroll" data-image-src="img/panigleV4.webp"></div>		
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner tm-history">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-history-inner">
+							<img src="img/FirstOne.jpeg" alt="Image" class="img-fluid tm-history-img" />
+							<div class="tm-history-text"> 
+								<h4 class="tm-history-title">History of Bikes</h4>
+								<p class="tm-mb-p">The 1885 Daimler Reitwagen made by Gottlieb Daimler and Wilhelm Maybach in Germany was the first internal combustion, petroleum-fueled motorcycle. In 1894, Hildebrand & Wolfmüller became the first series production motorcycle. Globally, motorcycles are comparably popular to cars as a method of transport.</p>
+							</div>
+						</div>	
 					</div>
 				</div>
 			</div>

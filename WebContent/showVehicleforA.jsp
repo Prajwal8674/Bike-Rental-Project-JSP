@@ -30,7 +30,7 @@
             transform: scale(1.1);
         }
          .tm-gallery-item {
-            max-width: 263px;
+            max-width: 280px;
             }
 
     </style>

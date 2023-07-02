@@ -194,7 +194,7 @@
                   <h6 class="mb-0">MILAGE</h6>
                 </div>
                 <div class="col-sm-9 text-secondary">
-                  <%=v.getMilage()%>
+                  <%=v.getMilage()%>kmpl
                 </div>
               </div>
               <hr>
@@ -221,7 +221,7 @@
                   <h6 class="mb-0">Price</h6>
                 </div>
                 <div class="col-sm-9 text-secondary">
-                   <%=v.getPrice() %>
+                   <%=v.getPrice() %>/day
                 </div>
               </div>
               <hr>
