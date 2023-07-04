@@ -31,6 +31,7 @@
         }
          .tm-gallery-item {
             max-width: 280px;
+            margin-bottom: 20px;
             }
 
     </style>

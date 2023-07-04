@@ -3,6 +3,7 @@ package adminModel;
 public class vehicleSoldToP {
 
 	private int id;
+	private String uemail;
 	private String model;
 	private int price;
 	private String type;
@@ -14,17 +15,18 @@ public class vehicleSoldToP {
 	}
 
 
-	public vehicleSoldToP(String model, int price, String type) {
+	public vehicleSoldToP(String uemail, String model, String type, int price) {
 		super();
+		this.uemail = uemail;
 		this.model = model;
 		this.price = price;
 		this.type = type;
 	}
 
-
-	public vehicleSoldToP(int id, String model, int price, String type) {
+	public vehicleSoldToP(int id, String uemail, String model, String type, int price) {
 		super();
 		this.id = id;
+		this.uemail = uemail;
 		this.model = model;
 		this.price = price;
 		this.type = type;
@@ -39,6 +41,18 @@ public class vehicleSoldToP {
 	public void setId(int id) {
 		this.id = id;
 	}
+
+
+	public String getUemail() {
+		return uemail;
+	}
+
+
+
+	public void setUemail(String uemail) {
+		this.uemail = uemail;
+	}
+
 
 
 	public String getModel() {

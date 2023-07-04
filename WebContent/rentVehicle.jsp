@@ -64,6 +64,7 @@
   .my-3 {
     margin-bottom: 1rem!important;
   }
+  
 
   .bg-gray-300 {
     background-color: #e2e8f0;
@@ -84,6 +85,8 @@
 
   .card-body h6 {
     margin-bottom: 10px;
+      text-align: right;
+    
   }
   .row {
   display: -ms-flexbox;
@@ -159,8 +162,12 @@
           adminDao ad = new adminDao();
           vehicleP v = new vehicleP();
           v=ad.getOneVehicle(id);
+          session.setAttribute("model",v.getModel() );
+          session.setAttribute("type",v.getType());
+          session.setAttribute("price",v.getPrice());
+          session.setAttribute("idV",v.getId());
           {%>
-        
+      
  <div class="main-body"> 
  
       <div class="row gutters-sm">
@@ -187,7 +194,7 @@
             
               <div class="row">
                 <div class="col-sm-3">
-                  <h6 class="mb-2">MODEL NAME</h6>
+                  <h6 class="mb-0">MODEL</h6>
                 </div>
                 <div class="col-sm-9 text-secondary">
                   <p class="mb-2"><%=v.getModel() %></p>
@@ -208,8 +215,8 @@
                 <div class="col-sm-3">
                   <h6 class="mb-0">TYPE</h6>
                 </div>
-                <div class="col-sm-9 text-secondary">
-                  <%=v.getType() %>
+                <div class="col-sm-9 text-secondary"name="type">
+                 <p class="mb-2"> <%=v.getType() %></p>
                 </div>
               </div>
               <hr>
@@ -223,11 +230,11 @@
               </div>
               <hr>
               <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3" name="price">
                   <h6 class="mb-0">Price</h6>
                 </div>
-                <div class="col-sm-9 text-secondary">
-                   <%=v.getPrice() %>/day
+                <div class="col-sm-9 text-secondary" >
+                  <p class="mb-2"name="price"><%=v.getPrice() %>/day</p>
                 </div>
               </div>
               
@@ -240,11 +247,10 @@
                     <div class="col-sm-3">
                       <h6 class="mb-0">Email</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary">
-                      <%=email%>
+                    <div class="col-sm-9 text-secondary" name="uemail">
+                     <%=email%> 
                     </div>
-                  </div> 
-            	  
+                  </div>   
               <%}
              
               %>
@@ -252,7 +258,7 @@
               <hr>
               <div class="row">
                 <div class="col-sm-12">
-                <button class="button button2">PAYMENT</button>
+                <button class="button button2" >PURCHASE</button>
                 </div>
                 
               </div>

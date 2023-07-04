@@ -178,11 +178,10 @@ public static Connection getConnect() throws ClassNotFoundException, SQLExceptio
 	Connection con = getConnect();
 	PreparedStatement  ps = con.prepareStatement(sql);
 	
-	ps.setString(1, p.getAname());
-	ps.setString(2, p.getAgen());
-	ps.setString(3, p.getAdob());
-	ps.setString(4, p.getAemail());
-	ps.setString(5, p.getApass());
+	ps.setString(1, vstp.getUemail());
+	ps.setString(2, vstp.getModel());
+	ps.setString(3, vstp.getType());
+	ps.setInt(4, vstp.getPrice());
 
 	int a = ps.executeUpdate();
 	con.close();
