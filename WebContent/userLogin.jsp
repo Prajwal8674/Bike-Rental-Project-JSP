@@ -22,9 +22,11 @@
     
     <%
     userDao ud = new userDao();
-
+    
     if(ud.checkForLogin(checkmail, checkpass)){
+    	session.setAttribute("email", checkmail);
     	response.sendRedirect("home.jsp");
+    	System.out.print(checkmail);
     }
     else if(!ud.checkForLogin(checkmail, checkpass)){
     	response.sendRedirect("userLogin.html");

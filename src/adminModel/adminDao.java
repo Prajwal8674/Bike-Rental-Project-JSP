@@ -172,5 +172,22 @@ public static Connection getConnect() throws ClassNotFoundException, SQLExceptio
         
         return v;
     }
+    
+    public int broughtV(vehicleSoldToP vstp) throws ClassNotFoundException, SQLException{
+	String sql = "insert into broughtvehicle (user,model,type,total) values(?,?,?,?)";
+	Connection con = getConnect();
+	PreparedStatement  ps = con.prepareStatement(sql);
+	
+	ps.setString(1, p.getAname());
+	ps.setString(2, p.getAgen());
+	ps.setString(3, p.getAdob());
+	ps.setString(4, p.getAemail());
+	ps.setString(5, p.getApass());
+
+	int a = ps.executeUpdate();
+	con.close();
+	
+	 return a;
+ } 
 
  }

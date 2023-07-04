@@ -67,7 +67,7 @@
 								Duis ut feugiat odio, sit amet accumsan
 								odio.</p>
 								<div>
-									<a href="https://www.bikewale.com/harleydavidson-bikes/forty-eight/" class="tm-btn tm-btn-default tm-right">Read More</a>
+									<a href="https://www.bikewale.com/harleydavidson-bikes/forty-eight/" target = "blank"  class="tm-btn tm-btn-default tm-right">Read More</a>
 								</div>
 							</figcaption>
 						</figure>
@@ -81,7 +81,7 @@
 								<p class="tm-person-about">Praesent non vulputate elit. Orci varius
 								natoque et magnis dis parturient, nascetur ridiculus mus.</p>
 								<div>
-									<a href="https://www.bikewale.com/husqvarna-bikes/vitpilen-401/" class="tm-btn tm-btn-default tm-right">Read More</a>
+									<a href="https://www.bikewale.com/husqvarna-bikes/vitpilen-401/" target = "blank" class="tm-btn tm-btn-default tm-right">Read More</a>
 								</div>
 							</figcaption>
 						</figure>
@@ -95,7 +95,7 @@
 								<p class="tm-person-about">Aenean sapien sem, ultricies sed vulputate
 								et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae.</p>
 								<div>
-									<a href="https://www.bikewale.com/kawasaki-bikes/ninja-zx-10r/" class="tm-btn tm-btn-default tm-right">Read More</a>
+									<a href="https://www.bikewale.com/kawasaki-bikes/ninja-zx-10r/" target = "blank"  class="tm-btn tm-btn-default tm-right">Read More</a>
 								</div>
 							</figcaption>
 						</figure>
@@ -109,7 +109,7 @@
 								<p class="tm-person-about">Praesent non vulputate elit. Orci varius
 								natoque penatibus et magnis montes, nascetur ridiculus mus.</p>
 								<div>
-								<a href="https://www.bikewale.com/honda-bikes/cbr-650r/" class="tm-btn tm-btn-default tm-right">Read More</a>
+								<a href="https://www.bikewale.com/honda-bikes/cbr-650r/" target = "blank"  class="tm-btn tm-btn-default tm-right">Read More</a>
 								</div>
 							</figcaption>
 						</figure>
@@ -143,7 +143,7 @@
 		<footer class="tm-footer text-center">
 			<p>Copyright &copy; 2020 Simple House 
             
-            | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+            | Design: <a rel="nofollow" href="https://templatemo.com">Patil_Prajwal</a></p>
 		</footer>
 	</div>
 	<script src="js/jquery.min.js"></script>

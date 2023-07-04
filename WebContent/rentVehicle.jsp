@@ -150,7 +150,7 @@
           </div>
         </div>
       </div>
-
+     <form action="sendVehicleToDB.jsp">
       <main>
        <%
           int id = Integer.parseInt(request.getParameter("id"));
@@ -160,7 +160,9 @@
           vehicleP v = new vehicleP();
           v=ad.getOneVehicle(id);
           {%>
+        
  <div class="main-body"> 
+ 
       <div class="row gutters-sm">
         <div class="col-md-4 mb-3">
           <div class="card">
@@ -178,8 +180,11 @@
           </div>
         </div>
         <div class="col-md-9">
+        
           <div class="card mb-3">
+          
             <div class="card-body">
+            
               <div class="row">
                 <div class="col-sm-3">
                   <h6 class="mb-2">MODEL NAME</h6>
@@ -188,6 +193,7 @@
                   <p class="mb-2"><%=v.getModel() %></p>
                 </div>
               </div>
+             
               <hr>
               <div class="row">
                 <div class="col-sm-3">
@@ -224,18 +230,44 @@
                    <%=v.getPrice() %>/day
                 </div>
               </div>
+              
+              <%
+              String email = (String) session.getAttribute("email");
+              if(email!=null){
+              %>
+            	  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <h6 class="mb-0">Email</h6>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                      <%=email%>
+                    </div>
+                  </div> 
+            	  
+              <%}
+             
+              %>
+                 
               <hr>
               <div class="row">
                 <div class="col-sm-12">
                 <button class="button button2">PAYMENT</button>
                 </div>
+                
               </div>
             </div>
+            
           </div>
         </div>
+        
       </div>
+      
     </div>
     <% } %>
+    </form>
+    
+    
         <div class="tm-section tm-container-inner">
           <div class="row">
             <div class="col-12 table-responsive">
@@ -276,7 +308,9 @@
               </div>
             </div>
           </div>
+          
         </div>
+        
       </main>
 
       <footer class="tm-footer text-center">
