@@ -120,6 +120,7 @@
 }
 </style>
 
+
 <body> 
    <div class="container">
       <div class="placeholder">
@@ -182,16 +183,12 @@
               </div>
             </div>
           </div>
-         
           <div class="card mt-3">
           </div>
         </div>
         <div class="col-md-9">
-        
           <div class="card mb-3">
-          
             <div class="card-body">
-            
               <div class="row">
                 <div class="col-sm-3">
                   <h6 class="mb-0">MODEL</h6>
@@ -200,7 +197,6 @@
                   <p class="mb-2"><%=v.getModel() %></p>
                 </div>
               </div>
-             
               <hr>
               <div class="row">
                 <div class="col-sm-3">
@@ -237,7 +233,6 @@
                   <p class="mb-2"name="price"><%=v.getPrice() %>/day</p>
                 </div>
               </div>
-              
               <%
               String email = (String) session.getAttribute("email");
               if(email!=null){
