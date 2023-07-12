@@ -159,6 +159,7 @@
        <%
           int id = Integer.parseInt(request.getParameter("id"));
           String pid =request.getParameter("pid");
+
           
           adminDao ad = new adminDao();
           vehicleP v = new vehicleP();

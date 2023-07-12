@@ -53,6 +53,14 @@
             color: rgb(84, 84, 84);
             margin-bottom: 10px;
         }
+        input[type="number"] {
+        width: 50px;
+        margin-left: 10px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        text-align: center;
+    }
 
     </style>
 </head>
@@ -109,16 +117,22 @@
                                 <img src="img/gallery/<%= vv.getImage()%>" alt="Image" class="img-fluid tm-gallery-img" />
                             </div>
 
-                            <figcaption>
-                                <h4 class="tm-gallery-title"><%= vv.getModel() %></h4>
-                                <label>Details:</label>
-                                <p class="tm-gallery-description">This vehicle is <%= vv.getType()%> with a mileage of <%= vv.getMilage() %>. The purpose of the bike is <%= vv.getPurpose() %>.</p>
-                                <p class="tm-gallery-price"><%= vv.getPrice() %>/day</p>
-                                <a href="rentVehicle.jsp?id=<%= vv.getId()%>">
-                                    <span class="bi bi-cart"></span>
-                                </a>
-                            </figcaption>
-                        </figure>
+                           <!-- ... -->
+
+<figcaption>
+    <h4 class="tm-gallery-title"><%= vv.getModel() %></h4>
+    <label>Details:</label>
+    <p class="tm-gallery-description">This vehicle is <%= vv.getType()%> with a mileage of <%= vv.getMilage() %>. The purpose of the bike is <%= vv.getPurpose() %>.</p>
+    <p class="tm-gallery-price"><%= vv.getPrice() %>/day<input type="number" name="days" min="1" value="1" style="width: 50px; margin-left: 10px;">
+    </p>
+    
+    <div class="price-container">
+        <a href="rentVehicle.jsp?id=<%= vv.getId()%>">
+            <span class="bi bi-cart"></span>
+        </a>
+    </div>
+</figcaption>
+</figure>
                     </article>
                     <% 
                         } 

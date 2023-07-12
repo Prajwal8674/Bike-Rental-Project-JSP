@@ -4,10 +4,6 @@
 
     <%@page import="userModel.userDao"%>
     <%@page import="userModel.userP" %> 
-    
-    
-    
-    
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -18,8 +14,7 @@
     <%
     String checkmail = request.getParameter("uemail");
     String checkpass = request.getParameter("upass");
-    %>
-    
+    %> 
     <%
     userDao ud = new userDao();
     

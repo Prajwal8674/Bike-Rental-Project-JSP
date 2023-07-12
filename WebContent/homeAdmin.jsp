@@ -12,7 +12,7 @@
 		.img-fluid {
   max-width: 30%;
   height: auto;
-}
+}   
 	</style>
 
 </head>
