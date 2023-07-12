@@ -102,7 +102,7 @@
 						    	 <img intrinsicsize="250 x 250" src="img/gallery/<%=vv.getImage()%>" alt="Image" class="img-fluid tm-gallery-img" />	
 								 <figcaption>
 								 <h4 class="tm-gallery-title"><%=vv.getModel() %></h4>	
-								 <label> Details :</label><p class="tm-gallery-description">This Vehicle is <%= vv.getType()%> With the Milage of <%= vv.getMilage() %> The Puropose Of the Bike Is <%= vv.getPurpose() %></p>			
+								 <label> Details :</label><p class="tm-gallery-description">This Vehicle is <%= vv.getType()%> With the Milage of <%= vv.getMilage() %> The Purpose Of the Bike Is <%= vv.getPurpose() %></p>			
 								 <p class="tm-gallery-price"><%= vv.getPrice() %>/day </p>
 								 <a href="removeVehicle.jsp?id=<%= vv.getId() %>">
                                  <span class="bi bi-trash" style="font-size: 30px; color: rgb(84, 84, 84);"></span>
